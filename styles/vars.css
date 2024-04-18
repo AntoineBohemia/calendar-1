@@ -1,10 +1,10 @@
 :root {
-  --bg-color: #242424;
-  --primary-color: #646cff;
-  --text-color: #FAFAFA;
+  --bg-color: #dddddd;
+  --primary-color: #2968dd;
+  --text-color: #000000;
   --margin: 24px;
   --margin-sm: 12px;
 
-  --border: 1px solid #555;
+  --border: 1px solid rgb(225, 225, 225);
   --border-radius: 4px;
 }

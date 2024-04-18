@@ -8,11 +8,11 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, .75);
+  background: rgba(210, 210, 210, 0.75);
 }
 
 .event-modal .content {
-  background: var(--bg-color);
+  background-color: blueviolet;
   position: fixed;
   width: 400px;
   left: 50%;

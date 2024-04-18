@@ -1,16 +1,17 @@
 header.main {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 14% 16% 40% 30%;;
   width: 100%;
   padding: var(--margin);
 
 }
 
-header.main h2 {
+header.main nav h2 {
   margin: 0;
   text-align: right;
   font-size: 20px;
   align-self: center;
+  width: max-content;
 }
 
 header.main .logo {
@@ -21,6 +22,7 @@ header.main .logo {
 header.main nav {
   justify-self: center;
   display: flex;
+  gap: 0.5rem;
 }
 
 header.main nav button {
@@ -30,4 +32,10 @@ header.main nav button {
 
 header button {
   justify-self: center;
+}
+
+header .nav02 {
+  display: inline-flex;
+  grid-row: 1;
+  grid-column: 4;
 }
